@@ -1,0 +1,88 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .category {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .category h2 {
+    color: #007bff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .widget {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .widget h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .widget p {
+    margin: 5px 0;
+  }
+  
+  .widget button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8em;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+  }
+  
+  .add-widget-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-widget-form input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .add-widget-form button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
